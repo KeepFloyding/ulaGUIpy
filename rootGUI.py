@@ -55,9 +55,3 @@ class graph:
 			var.set(argv[0]); 
 		return var;
 
-# Create window  
-root = tk.Tk()
-g = graph(root,'GUI Time');
-
-# Close the root loop
-root.mainloop()
